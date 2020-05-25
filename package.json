@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Book your Hiking Trip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass sass -o css",
+    "css:watch": "npm run css && node-sass sass -o css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herzogmatthias/natours.git"
+  },
+  "author": "Matthias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herzogmatthias/natours/issues"
+  },
+  "homepage": "https://github.com/herzogmatthias/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
